@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+}
+
+#input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(50% - 15px);
+    height: 100%;
+}
+
+#output {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.function-wrap {
+    background: #ccc;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.trycatch-wrap {
+    background: rgb(163, 97, 97);
+    padding: 1em;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
